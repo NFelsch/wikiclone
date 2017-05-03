@@ -5,22 +5,44 @@
 }
 
 .flex-wrapper {
-    display: inline-flex;
+    width: 80%;
+    display: flex;
     flex-wrap: wrap;
-    background-color: blue;
+    float: middle;
+    border: 0px solid;
+    border-bottom: .5px solid rgba(0, 0, 0, .2);
+    margin: auto;
+    justify-content: space-around;
+    line-height: 175px;
 }
 
 .top-box {
     padding: 3px;
-    margin-top: 2em;
-    margin-left: 3em;
-    margin-right: 2em;
+    margin-top: 1.8em;
+    margin-left: 9em;
+    margin-right: 9em;
     font-size: 20px;
     font-family: Arial, serif;
-
 }
 
 .foot {
     font-size: 1em;
     text-align: center;
 }
+
+img {
+    height: auto;
+    width: 140px;
+    margin: 1em 3em;
+
+}
+
+* :link {
+    color: blue;
+    text-decoration: none;
+}
+
+a {
+    color: #0645AD;
+}
+
