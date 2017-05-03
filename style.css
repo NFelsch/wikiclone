@@ -1,0 +1,26 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+
+.top-box {
+    padding: 3px;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 2em;
+    font-size: 20px;
+    font-family: Arial, serif;
+
+}
+
+.foot {
+    font-size: 1em;
+    text-align: center;
+}
